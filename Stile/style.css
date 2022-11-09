@@ -6,8 +6,6 @@ body{
 header{
     padding: 1%;
     border-top: 40px solid rgb(87, 2, 147);
-    position: fixed;
-    width: 100%;
 }
 
 img.logo{
@@ -42,7 +40,7 @@ a.fa-youtube-play{
 }
 
 a.fa-twitch{
-    color: blueviolet;
+    color: #6441a5;
 }
 
 a.fa-instagram{
@@ -50,7 +48,32 @@ a.fa-instagram{
 }
 
 a.fa-discord{
-    color: #7289da;
+    color: #424549;
+}
+
+/*PAGINE SOCIAL*/
+/*Youtube*/
+div.youtube{
+    margin: 3% 0% 0% 0%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80%;
+    background-color: red;
+}
+
+div.twitch{
+    margin: 3% 0% 0% 0%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 80%;
+    background-color: #6441a5;
+    float: right;
+}
+
+iframe.player{
+    padding: 3%;
+    width: 560px;
+    height: 315px;
 }
 
 .left{
