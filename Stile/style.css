@@ -5,7 +5,7 @@ body{
 /*HEADER*/
 header{
     padding: 1%;
-    border-top: 40px solid rgb(87, 2, 147);
+    border-top: 40px solid #570293;
 }
 
 img.logo{
@@ -51,6 +51,34 @@ a.fa-discord{
     color: #424549;
 }
 
+/*Menu*/
+ul.menu{
+    list-style-type: none;
+    padding: 0%;
+    overflow: hidden;
+}
+
+li.menu a.menu{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/*li.menu a.menu:hover:not(.active) {
+
+}*/
+
+li.active a.active{
+    background-color: #FFFFFF;
+    border-top: 5px solid #570293;
+    border-right: 5px solid #570293;
+    border-bottom: none;
+}
+
 /*PAGINE SOCIAL*/
 /*Youtube*/
 div.youtube{
@@ -74,6 +102,32 @@ iframe.player{
     padding: 3%;
     width: 560px;
     height: 315px;
+}
+
+div.descrizione{
+    width: 40%;
+}
+
+h1.descrizione{
+    text-align: center;
+    font-size: 300%;
+}
+
+p.descrizione{
+    text-align: center;
+    font-size: 200%;
+}
+
+div.player{
+    width: 60%;
+}
+
+a.player{
+    text-decoration: none;
+    font-size: 500%;
+    padding-top: 5%;
+    padding-left: 40%;
+    color: black;
 }
 
 .left{
