@@ -47,8 +47,18 @@
 				<p class="descrizione">ElMixerone</p>
 			</div>
 			<div class="player left">
-				<iframe class="player right" src="https://www.youtube.com/embed/ObVhSYt6hVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+	 			<div id="twitch-embed"></div>
+	 			<script src="https://embed.twitch.tv/embed/v1.js"></script>
+	 			<script type="text/javascript">
+	   				new Twitch.Embed("twitch-embed", {
+		 				width: 560,
+		 				height: 315,
+		 				channel: "elmixerone",
+						parent: [""],
+		 				muted: true
+	   				});
+	 			</script>
+   			</div>
 		</div>
 	</body>
 </html>
