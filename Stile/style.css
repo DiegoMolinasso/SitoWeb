@@ -80,24 +80,6 @@ li.active a.active{
 }
 
 /*PAGINE SOCIAL*/
-/*Youtube*/
-div.youtube{
-    margin: 3% 0% 0% 0%;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 80%;
-    background-color: red;
-}
-
-div.twitch{
-    margin: 3% 0% 0% 0%;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    width: 80%;
-    background-color: #6441a5;
-    float: right;
-}
-
 iframe.player{
     padding: 3%;
     width: 560px;
@@ -136,6 +118,36 @@ a.player{
     color: black;
 }
 
+/*Youtube*/
+div.youtube{
+    margin: 3% 0% 0% 0%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80%;
+    background-color: red;
+}
+
+/*Twitch*/
+div.twitch{
+    margin: 3% 0% 0% 0%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 80%;
+    background-color: #6441a5;
+    float: right;
+}
+
+/*Instagram*/
+div.instagram{
+    margin: 3% 0% 0% 0%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80%;
+    background-color: #E1306C;
+    float: left;
+}
+
+/*FLOAT*/
 .left{
     float: left;
 }
