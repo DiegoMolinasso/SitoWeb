@@ -1,3 +1,11 @@
+html{ 
+    background: url(https://www.geekissimo.com/wp-content/uploads/2013/03/wallpaper-427919.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body{
     margin: 0%;
 }
@@ -17,6 +25,7 @@ img.logo{
 
 h1.title{
     margin: 0% 0% 0% 10%;
+    color: white;
 }
 
 /*Social*/
@@ -52,7 +61,7 @@ a.fa-twitter{
 }
 
 a.fa-discord{
-    color: #424549;
+    color: white;
 }
 
 /*Menu*/
@@ -60,7 +69,6 @@ ul.menu{
     list-style-type: none;
     padding: 0%;
     overflow: hidden;
-    background-color: #6441a5;
 }
 
 li.menu a.menu{
@@ -73,6 +81,7 @@ li.menu a.menu{
 
 li.menu a.menu:hover:not(.active){
     background-color: #9370DB;
+    transition: 1s;
 }
 
 li.active a.active{
@@ -117,6 +126,66 @@ a.player{
     padding-top: 5%;
     padding-left: 40%;
     color: black;
+}
+
+a.player:hover{
+    color: white;
+    transition: 1.5s;
+}
+
+a.button{
+    display: block;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0% 10%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a.youtube{
+    background-color: #ac1813;
+}
+
+a.youtube:hover{
+    background-color: #9d2622;
+    transition: 1s;
+}
+
+a.twitch{
+    background-color: #6034b2;
+}
+
+a.twitch:hover{
+    background-color: #503484;
+    transition: 1s;
+}
+
+a.instagram{
+    background-color: #C13584;
+}
+
+a.instagram:hover{
+    background-color: #833AB4;
+    transition: 1s;
+}
+
+a.twitter{
+    background-color: #00b9ff;
+}
+
+a.twitter:hover{
+    background-color: #0094cc;
+    transition: 1s;
+}
+
+a.discord{
+    background-color: #424549;
+}
+
+a.discord:hover{
+    background-color: #1e2124;
+    transition: 1s;
 }
 
 /*Youtube*/
