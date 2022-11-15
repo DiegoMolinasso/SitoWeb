@@ -47,6 +47,10 @@ a.fa-instagram{
     color: #E1306C;
 }
 
+a.fa-twitter{
+    color: #1DA1F2;
+}
+
 a.fa-discord{
     color: #424549;
 }
@@ -56,26 +60,23 @@ ul.menu{
     list-style-type: none;
     padding: 0%;
     overflow: hidden;
+    background-color: #6441a5;
 }
 
 li.menu a.menu{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
 }
 
 li.menu a.menu:hover:not(.active){
-    text-decoration: underline;
+    background-color: #9370DB;
 }
 
 li.active a.active{
-    background-color: #FFFFFF;
-    border-top: 5px solid #570293;
-    border-right: 5px solid #570293;
+    background-color: #570293;
     border-bottom: none;
 }
 
@@ -144,6 +145,26 @@ div.instagram{
     border-bottom-right-radius: 30px;
     width: 80%;
     background-color: #E1306C;
+    float: left;
+}
+
+/*Twitter*/
+div.twitter{
+    margin: 3% 0% 0% 0%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 80%;
+    background-color: #1DA1F2;
+    float: right;
+}
+
+/*Discord*/
+div.discord{
+    margin: 3% 0% 0% 0%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80%;
+    background-color: #7289da;
     float: left;
 }
 
