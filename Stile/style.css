@@ -125,12 +125,13 @@ a.player{
     font-size: 500%;
     padding-top: 5%;
     padding-left: 40%;
-    color: black;
+    color: white;
+    transition: 1s;
 }
 
 a.player:hover{
-    color: white;
-    transition: 1.5s;
+    color: black;
+    transition: 1s;
 }
 
 a.button{
