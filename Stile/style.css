@@ -1,5 +1,5 @@
 html{ 
-    background: url(https://www.geekissimo.com/wp-content/uploads/2013/03/wallpaper-427919.jpg) no-repeat center center fixed; 
+    background: url("sfondo.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
